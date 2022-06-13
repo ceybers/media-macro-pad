@@ -4,7 +4,7 @@
 
 A wireless macro pad for controlling media playback and volume control.
 
-![Photo of the macro pad](images/20220505-IMG_1290.jpg)
+![Photo of the macro pad](images/photos/20220505-IMG_1290.jpg)
 
 [More images...](images/gallery.md)
 
@@ -16,6 +16,18 @@ A wireless macro pad for controlling media playback and volume control.
 - 500mAh battery
 - Charges via USB-C
 
+## 📐 Changes
+
+> Currently waiting on 3D prints to be completed.
+
+ - Relocated heatset inserts and bosses
+ - Added lugs/lips to help align parts
+ - Added support ribs/gussets
+ - Changed top shell to use a magnet to stay in place
+ - Fixed position of power switch
+ - Correct spacing for MCU mounting
+ - Removed LED
+ - Offset knob to protude from rear of case
 ## ⚠️ Issues
 
 > Current STL/FreeCAD models are not suitable for actual use!
@@ -32,6 +44,9 @@ A wireless macro pad for controlling media playback and volume control.
 
 ## 🛒 Bill of Materials (BOM)
 
+> ⚠️ BoM is out of date and needs to be updated for latest revision.
+
+
 | Item | Size | Qty | 
 | ---- | ---- | --- |
 | [DFrobot FireBeetle ESP32-E](https://www.dfrobot.com/product-2231.html) | N/A | 1 |
@@ -46,7 +61,7 @@ A wireless macro pad for controlling media playback and volume control.
 | 3D printed shell | N/A | 4 pcs |
 
 
-![Photo of the macro pad](images/Screenshot%202022-04-27%20193904.png)
+![Photo of the macro pad](images/renders/Render-Exploded-Iso%20rev%203.png)
 ## 🔗 References
 
 - [MK32 firmware](https://github.com/Galzai/MK32)
