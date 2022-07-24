@@ -1,5 +1,11 @@
 # Gallery
 
+## Photos (rev 3)
+![Front](photos/20220724-IMG_1463.jpg)
+![Read](photos/20220724-IMG_1464.jpg)
+![Front angle](photos/20220724-IMG_1466.jpg)
+![Rear angle](photos/20220724-IMG_1468.jpg)
+
 ## CAD Screenshots (rev 3)
 ![Exploded](renders/Render-Exploded-Iso%20rev%203.png)
 ![Opaque](renders/Render-Opaque-Iso%20rev%203.png)

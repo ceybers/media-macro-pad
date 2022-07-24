@@ -4,7 +4,7 @@
 
 A wireless macro pad for controlling media playback and volume control.
 
-![Photo of the macro pad](images/photos/20220505-IMG_1290.jpg)
+![Photo of the macro pad](images/photos/20220724-IMG_1468.jpg)
 
 [More images...](images/gallery.md)
 
@@ -18,8 +18,6 @@ A wireless macro pad for controlling media playback and volume control.
 
 ## 📐 Changes
 
-> Currently waiting on 3D prints to be completed.
-
  - Relocated heatset inserts and bosses
  - Added lugs/lips to help align parts
  - Added support ribs/gussets
@@ -32,15 +30,9 @@ A wireless macro pad for controlling media playback and volume control.
 
 > Current STL/FreeCAD models are not suitable for actual use!
 
-- Heat set inserts on top shell poorly placed - head of screw collides with walls of shell
-- Holes for heat set inserts were too small (Ø3.0mm in CAD)
-- Holes for heat set did not have fillets to help guide placement
-- Walls for heat set inserts too thin (1.5mm) - melted during placement
-- Power switch slightly too tall for height of middle shell
-- Insufficient clearance between contacts of power switch and rotary encoder base
-- Incorrect spacing for standoffs for the MCU board
-- Placement of MCU's battery connect (JST-PH) collides with heat set column
-- Wall around opening for LED would have helped with alignment
+- Top shell isn't secured firmly with only one magnet
+- Lugs on top shell need to be made smaller to fit into slots in middle shell
+- Tolerances around cutout for rotary encoder knob are too tight and need filing down
 
 ## 🛒 Bill of Materials (BOM)
 
@@ -54,14 +46,16 @@ A wireless macro pad for controlling media playback and volume control.
 | Battery LiPo 500mAh 3.7V | 38.5×29.5×5mm | 1 |
 | EC11 Rotary Encoder | 15mm shaft, 4.5mm base | 1 |
 | MX switches | N/A | 6 |
-| LED, Red |5mm | 1 |
-| Resistor | 220 Ohm | 1 |
-| Heat Set Inserts | M2.5×6mm | 6 |
-| Screws | M2.5×6mm | 6 |
+| ~~LED, Red~~ |5mm | 1 |
+| Resistor | 220 Ohm | 6<sup>1</sup> |
+| Heat Set Inserts | M2.5×6mm | 3 |
+| Screws | M2.5×6mm | 3 |
 | 3D printed shell | N/A | 4 pcs |
 
+1. I used external pull down resistors for this build to work around the peculiarlities that the ESP32 has with internal pull-up/downs when in sleep modes. 
 
-![Photo of the macro pad](images/renders/Render-Exploded-Iso%20rev%203.png)
+![Render of the macro pad](images/renders/Render-Exploded-Iso%20rev%203.png)
+![Photo of the macro pad](images/photos/20220724-IMG_1463.jpg)
 ## 🔗 References
 
 - [MK32 firmware](https://github.com/Galzai/MK32)
